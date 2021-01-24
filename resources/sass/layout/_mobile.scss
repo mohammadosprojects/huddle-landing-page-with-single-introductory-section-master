@@ -1,0 +1,21 @@
+@media (max-width: 70rem) {
+  .showcase {
+    flex-direction: column;
+
+    div {
+      flex: 1;
+    }
+
+    &__text {
+      text-align: center;
+
+      &--button {
+        width: 50%;
+      }
+    }
+  }
+
+  .media {
+    text-align: center;
+  }
+}
